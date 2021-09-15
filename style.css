@@ -1,4 +1,153 @@
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+  .grow{
+    width: 1591px;
+    background-color: rgba(15, 9, 9, 0.829);
+    margin-top: 900px;
+    margin-left: -185px;
+    height: 137px;
+    font-size: 100%;
+    size: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  body{
+    width: 100%;
+    height: 100%;
+    background: #272727;
+  }
+  
+  #wrapper {
+    position: relative;
+    width: 250px;
+    height: 2px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 2;
+    font-size: 35px;
+    font-family: monospace;
+    color: white;
+  }
+  .vk{
+    background-color: rgba(0, 0, 0, 0.144);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .yt{
+    background-color:rgba(0, 0, 0, 0.144);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+  }
+  
+  
+  .ds{
+    background-color: rgba(0, 0, 0, 0.144);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transform: translateY(0);
+    transition: 3s;
+    display: inline-block;
+  }
+
+  .dsof{
+    background-color: rgba(0, 0, 0, 0.144);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.text1{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  animation: text 4s 1;
+}
+
+.text2{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  animation: text 5s 1;
+}
+
+.text3{
+  color: rgba(60, 96, 255, 0.87);
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  animation: text 4s 1;
+}
+
+
+@keyframes text{
+  0%{
+      color: rgba(0, 0, 0, 0.781);
+      margin-bottom: 0px;
+  }
+  30%{
+      margin-bottom: 0px;
+  }
+  85%{
+      margin-bottom: 0px;
+  }
+}
+
+
+.btn11{
+color: rgba(255, 255, 255, 0.171);
+font-size: 35px;
+margin-top: 50px;
+margin-left: 70%;
+
+}
+
+.btns12{
+color: rgba(255, 255, 255, 0.171);
+font-size: 35px;
+margin-top: -65px;
+margin-left: -70%
+}
+
+.btns13{
+color: rgba(255, 255, 255, 0.171);
+font-size: 35px;
+margin-top: -70px;
+margin-left: 25;
+}
+
+}
+
   
   .preloader {
       position: fixed;
