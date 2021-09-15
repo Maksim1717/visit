@@ -1,4 +1,4 @@
-
+@media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
   
   .preloader {
       position: fixed;
@@ -196,7 +196,7 @@
 
 
 .grow{
-  width: 1663px;
+  width: 1591px;
   background-color: rgba(15, 9, 9, 0.829);
   margin-top: 900px;
   margin-left: -185px;
