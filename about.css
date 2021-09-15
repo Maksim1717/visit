@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(69, 75, 75);
+}
+.glav1{
+    font-size: 30px;
+    margin-left: 650px;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.aboutme1{
+        font-size: 30px;
+        color: rgba(0, 179, 0, 0.671);
+}
+#wrapper{
+    position: relative;
+    width: 250px;
+    height: 180px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 2;
+    font-size: 35px;
+    font-family: monospace;
+    color: rgba(238, 15, 15, 0.267);
+  }
