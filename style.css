@@ -17,6 +17,7 @@
     background: #272727;
   }
   
+@media screen and (max-width: 768px) {
   #wrapper {
     position: relative;
     width: 250px;
@@ -27,7 +28,8 @@
     font-size: 35px;
     font-family: monospace;
     color: white;
-  }
+  }}
+  @media screen and (max-width: 768px) {
   .vk{
     background-color: rgba(0, 0, 0, 0.144);
     border: none;
@@ -39,7 +41,8 @@
     font-size: 16px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-  }
+  }}
+  @media screen and (max-width: 768px) {
   .yt{
     background-color:rgba(0, 0, 0, 0.144);
     border: none;
@@ -52,7 +55,8 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     
-  }
+  }}
+  @media screen and (max-width: 768px) {
   
   
   .ds{
@@ -68,7 +72,8 @@
     transform: translateY(0);
     transition: 3s;
     display: inline-block;
-  }
+  }}
+  @media screen and (max-width: 768px) {
 
   .dsof{
     background-color: rgba(0, 0, 0, 0.144);
@@ -81,7 +86,8 @@
     font-size: 16px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-}
+}}
+@media screen and (max-width: 768px) {
 .text1{
   color: #fff;
   font-size: 60px;
@@ -89,7 +95,8 @@
   letter-spacing: 8px;
   margin-bottom: 20px;
   animation: text 4s 1;
-}
+}}
+@media screen and (max-width: 768px) {
 
 .text2{
   color: #fff;
@@ -98,7 +105,8 @@
   letter-spacing: 8px;
   margin-bottom: 20px;
   animation: text 5s 1;
-}
+}}
+@media screen and (max-width: 768px) {
 
 .text3{
   color: rgba(60, 96, 255, 0.87);
@@ -107,7 +115,7 @@
   letter-spacing: 4px;
   margin-bottom: 10px;
   animation: text 4s 1;
-}
+}}
 
 
 @keyframes text{
@@ -123,28 +131,28 @@
   }
 }
 
-
+@media screen and (max-width: 768px) {
 .btn11{
 color: rgba(255, 255, 255, 0.171);
 font-size: 35px;
 margin-top: 50px;
 margin-left: 70%;
 
-}
-
+}}
+@media screen and (max-width: 768px) {
 .btns12{
 color: rgba(255, 255, 255, 0.171);
 font-size: 35px;
 margin-top: -65px;
 margin-left: -70%
-}
-
+}}
+@media screen and (max-width: 768px) {
 .btns13{
 color: rgba(255, 255, 255, 0.171);
 font-size: 35px;
 margin-top: -70px;
 margin-left: 25;
-}
+}}
 
 }
 
