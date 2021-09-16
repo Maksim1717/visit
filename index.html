@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html  lang="en">
 <head>
 
     <meta charset="utf-8">
@@ -16,12 +16,19 @@
 
 
     <script defer src="all.min.js"></script>
+    <script src="three.min.js"></script>
+    <script src="vanta.net.min.js"></script>
 
     <link rel="apple-touch-icon" sizes="180x180" href="user-06.jpg">
     <link rel="icon" type="image/png" sizes="32x32" href="user-06.jpg">
     <link rel="icon" type="image/png" sizes="16x16" href="user-06.jpg">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/png" href="file:///C:/Users/gameu/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/myglobalsite/images/user-06.jpg" />
+    <link rel="shortcut icon" type="image/png" href="file:///C:/Users/gameu/Downloads/-_4.jpg">
+
+    <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+    <meta name="author" content="Vincent Garreau" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" media="screen" href="css/style.css">
 
 </head>
 
@@ -52,6 +59,39 @@
             <span class="s-header__menu-icon"></span>
         </a>
     </header> 
+    <!-- count particles -->
+<div class="count-particles">
+    <span class="js-count-particles">--</span> particles
+  </div>
+  
+  <!-- particles.js container -->
+  <div id="particles-js"></div>
+  
+  <!-- scripts -->
+  <script src="../particles.js"></script>
+  <script src="js/app.js"></script>
+  
+  <!-- stats.js -->
+  <script src="js/lib/stats.js"></script>
+  <script>
+    var count_particles, stats, update;
+    stats = new Stats;
+    stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector('.js-count-particles');
+    update = function() {
+      stats.begin();
+      stats.end();
+      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+      }
+      requestAnimationFrame(update);
+    };
+    requestAnimationFrame(update);
+  </script>
 
 
 
@@ -75,6 +115,7 @@
                         <a target="_blank" href="https://www.youtube.com/channel/UCznfbKz8H12l-z6XU45dnew"><i class="fab fa-youtube" aria-hidden="true"></i></a>
                         <a target="_blank" href="https://www.twitch.tv/darkman__yt"><i class="fab fa-twitch" aria-hidden="true"></i></a>
                         <a target="_blank" href="https://discord.gg/CTQspVNpE3"><i class="fab fa-discord" aria-hidden="true"></i></a>
+                        <a target="_blank" href="https://maksim1717.github.io/visit2/"><i class="fab fa-site" aria-hidden="true"></i></a>
                     </div>
 
                 </div> <!-- end s-hero__content-about -->
@@ -126,6 +167,8 @@
         </div> <!-- end row -->
 
     </section> <!-- end s-about -->
+
+    <div class="intro" id="intro"></div>
 
 
     <!-- resume
